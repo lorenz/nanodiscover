@@ -6,10 +6,12 @@
 
 ## Usage
 Create an announcer:
+
     discover = require("nanodiscover")
     discover.createAnnouncer("myprogram","1.0.0") // Version is optional
 
 Create a browser:
+
     discover = require("nanodiscover")
     browser = discover.createBrowser("myprogram","1.0.0")
     browser.on("nodeUp",function (ip) {
